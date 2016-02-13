@@ -16,7 +16,7 @@
 #content-professional {
 	font-size: 35px;
 	font-family: helvetica;
-	font-style: underline;
+	text-decoration: underline;
 }
 
 h1 {
