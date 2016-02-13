@@ -21,11 +21,13 @@
 h1 {
 	font-size: 70px;
 	margin-bottom: -25px;
+	text-align: center;
 }
 
 h2 {
 	font-size: 20px;
 	margin-bottom: -6px;
+	text-align: center;
 }
 
 h3 {
