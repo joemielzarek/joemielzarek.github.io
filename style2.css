@@ -1,0 +1,213 @@
+body,
+.nav,
+.home-page,
+.exp-1,
+.exp-2,
+.exp-3,
+.exp-4,
+.exp-5,
+.exp-6,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #004162;
+}
+
+.nav {
+  text-align: right;
+  margin: 0 auto 0 auto;
+  padding: 20px 20px 20px 20px;
+  font-family: helvetica, sans-serif;
+  background-color: #FFF;
+}
+
+.nav h1 {
+  font-size: 25px;
+  color: #004162;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav ul li {
+  display: inline;
+  padding-left: 13px;
+  margin: 0 0 0 0;
+  font-size: 12px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+a {
+  color: #70B9D7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DCDED9;
+}
+
+.home-page h1 {
+  text-align: left;
+  margin: 50px 20% 50px 20%;
+  font-size: 120px;
+  color: #FFFFFF;
+}
+
+.home-page h2 {
+  text-align: right;
+  margin: 40px 18% 50px 0;
+  padding-bottom: 100px;
+  font-size: 50px;
+  color: #FFFFFF;
+  font-family: helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.exp h1,
+.exp-1 h1,
+.exp-2 h1,
+.exp-3 h1,
+.exp-4 h1,
+.exp-5 h1,
+.exp-6 h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 20px;
+  font-size: 14px;
+  color: #FFF;
+}
+
+.exp h2,
+.exp-1 h2,
+.exp-2 h2,
+.exp-3 h2,
+.exp-4 h2,
+.exp-5 h2,
+.exp-6 h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 20px;
+  font-size: 12px;
+  color: #FFF;
+}
+
+.exp {
+  width: 100%;
+  padding: 30px 0 30px 0;
+  background-color: #70B9D7;
+  text-align: center;
+  font-family: helvetica;
+}
+
+.exp-1 {
+  width: 100%;
+  padding: 30px 0 30px 0;
+  background-color: #109FC1;
+  text-align: center;
+  font-family: helvetica;
+}
+
+.exp-2 {
+  width: 100%;
+  padding: 30px 0 30px 0;
+  background-color: #036499;
+  text-align: center;
+}
+
+.exp-3 {
+  width: 100%;
+  padding: 30px 0 30px 0;
+  background-color: #70B9D7;
+  text-align: center;
+}
+
+.exp-4 {
+  width: 100%;
+  padding: 30px 0 30px 0;
+  background-color: #109FC1;
+  text-align: center;
+}
+
+.exp-5 {
+  width: 100%;
+  padding: 30px 0 30px 0;
+  background-color: #036499;
+  text-align: center;
+}
+
+.exp-6 {
+  width: 100%;
+  padding: 30px 0 30px 0;
+  background-color: #70B9D7;
+  text-align: center;
+}
+
+.about-page {
+  text-align: left;
+  padding-bottom: 100px;
+  font-family: helvetica, sans-serif;
+  color: #FFFFFF;
+}
+
+.about-page h1 {
+  text-align: center;
+  padding: 60px 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 60px;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.about-page p {
+  padding: 0 0 0 0;
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: 100;
+  font-style: normal;
+  margin: 20px 34% 20px 34%;
+}
+
+.about-images {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.about-images li {
+  display: inline;
+  padding: 20px 10px 0 0;
+}
+
+.contact-section {
+  margin: 100px 500px 100px 500px;
+  padding: 100px 0 100px 0;
+  border: 1px solid #FFF;
+  font-family: helvetica, sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.contact-section h1 {
+  padding: 20px 0 20px 0;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.footer {
+  font-size: 10px;
+  margin: 100px 0 0 0;
+  padding: 20px 20px 20px 20px;
+  background-color: #FFFFFF;
+  font-family: Verdana, Geneva, sans-serif;
+}
