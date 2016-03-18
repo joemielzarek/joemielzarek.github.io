@@ -24,23 +24,17 @@ li {
 }
 
 body {
-  background-color: #004162;
+  background-color: #FFF;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-}
-
-main {
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .nav {
   text-align: right;
   margin: 0 auto 0 auto;
   padding: 20px 20px 20px 20px;
-  font-family: helvetica, sans-serif;
   background-color: #FFF;
   position: fixed;
   top: 0;
@@ -51,16 +45,14 @@ main {
 .nav h1 {
   font-size: 44px;
   color: #004162;
-  font-weight: 500;
-  font-style: normal;
+  font-weight: bold;
 }
 
 .nav ul li {
   display: inline;
-  padding-left: 13px;
+  padding-left: 16px;
   margin: 0 0 0 0;
-  font-size: 12px;
-  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
 }
 
 a {
@@ -70,23 +62,30 @@ a {
 
 a:hover {
   color: #70B9D7;
+  font-weight: bold;
 }
 
 .home-page h1 {
   text-align: left;
-  margin: 150px 20% 50px 20%;
-  font-size: 120px;
+  margin: 150px 13% 50px 13%;
+  font-size: 160px;
   color: #FFFFFF;
+  font-weight: bold;
 }
 
 .home-page h2 {
   text-align: right;
   margin: 40px 18% 50px 0;
   padding-bottom: 100px;
+  font-weight: normal;
   font-size: 50px;
   color: #FFFFFF;
-  font-family: helvetica, sans-serif;
-  font-weight: 500;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  padding: 120px 0 0 0;
 }
 
 .exp h1,
@@ -97,10 +96,10 @@ a:hover {
 .exp-5 h1,
 .exp-6 h1 {
   text-align: center;
-  font-family: Verdana, Geneva, sans-serif;
-  line-height: 20px;
-  font-size: 14px;
+  line-height: 26px;
+  font-size: 18px;
   color: #FFF;
+  font-weight: 500;
 }
 
 .exp h2,
@@ -111,87 +110,74 @@ a:hover {
 .exp-5 h2,
 .exp-6 h2 {
   text-align: center;
-  font-family: Verdana, Geneva, sans-serif;
   line-height: 20px;
-  font-size: 12px;
+  font-size: 14px;
   color: #FFF;
+  font-weight: 100;
 }
 
 .exp {
-  height: 50px;
-  padding: 150px 0 30px 0;
+  padding: 0 0 0 0;
   background-color: #70B9D7;
   text-align: center;
-  font-family: helvetica;
+  padding: 2%;
 }
 
 .exp-1 {
-  height: 50px;
-  padding: 40px 0 30px 0;
   background-color: #109FC1;
   text-align: center;
-  font-family: helvetica;
+  padding: 2%;
 }
 
 .exp-2 {
-  height: 50px;
-  padding: 40px 0 30px 0;
   background-color: #036499;
   text-align: center;
+  padding: 2%;
 }
 
 .exp-3 {
-  height: 50px;
-  padding: 40px 0 30px 0;
   background-color: #70B9D7;
   text-align: center;
+  padding: 2%;
 }
 
 .exp-4 {
-  height: 50px;
-  padding: 40px 0 30px 0;
   background-color: #109FC1;
   text-align: center;
+  padding: 2%;
 }
 
 .exp-5 {
-  height: 50px;
-  padding: 40px 0 30px 0;
   background-color: #036499;
   text-align: center;
+  padding: 2%;
 }
 
 .exp-6 {
-  height: 50px;
-  padding: 40px 0 30px 0;
   background-color: #70B9D7;
   text-align: center;
+  padding: 2%;
 }
 
 .about-page {
   text-align: left;
   padding-bottom: 100px;
-  font-family: helvetica, sans-serif;
   color: #FFFFFF;
+  background-color: #004162;
 }
 
 .about-page h1 {
   text-align: center;
-  padding: 150px 0 0 0;
-  margin: 0 0 0 0;
-  font-size: 60px;
-  font-weight: 900;
-  font-style: normal;
+  padding: 10px 0 0 0;
+  font-size: 80px;
+  font-weight: 800;
 }
 
 .about-page p {
-  padding: 0 0 0 0;
   line-height: 50px;
   font-size: 30px;
   font-weight: 100;
-  font-style: normal;
-  width: 50%;
-  margin: 10px auto 10px auto;
+  margin: 10px 10% 10px 10%;
 }
 
 .about-images {
@@ -208,25 +194,23 @@ a:hover {
   width: 100%;
   heigth: 100%;
   box-sizing: border-box;
-  margin: 300px auto 800px auto;
-  padding: 40px;
-  padding-bottom: 100px;
-  font-family: helvetica, sans-serif;
+  margin: auto 0 auto 0;
+  padding: 200px 0 20% 0;
   color: #FFFFFF;
-  text-align: center;
+  background-color: #004162;
 }
 
 .contact-section h1 {
   padding: 10px 0 20px 0;
   font-weight: 100;
   font-size: 50px;
+  text-align: center;
+  padding: 40px;
 }
 
 .footer {
-  font-size: 10px;
+  font-size: 11px;
+  font-weight: light;
   background-color: #FFFFFF;
-  font-family: Verdana, Geneva, sans-serif;
-  width: 100%;
   height: 20px;
   padding: 40px 0 0 20px;
-}
