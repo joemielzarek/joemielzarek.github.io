@@ -65,6 +65,12 @@ a:hover {
   font-weight: bold;
 }
 
+section {
+  width: 100%;
+  height: 100%;
+  padding: 120px 0 0 0;
+}
+
 .home-page {
   background-color: #004162;
 }
@@ -85,12 +91,6 @@ a:hover {
   font-weight: normal;
   font-size: 50px;
   color: #FFFFFF;
-}
-
-section {
-  width: 100%;
-  height: 100%;
-  padding: 120px 0 0 0;
 }
 
 .exp h1,
