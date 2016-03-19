@@ -7,7 +7,7 @@ body,
 .exp-4,
 .exp-5,
 .exp-6,
-footer,
+.footer,
 h1,
 h2,
 h3,
@@ -65,12 +65,6 @@ a:hover {
   font-weight: bold;
 }
 
-section {
-  width: 100%;
-  height: 100%;
-  padding: 120px 0 0 0;
-}
-
 .home-page {
   background-color: #004162;
 }
@@ -91,6 +85,12 @@ section {
   font-weight: normal;
   font-size: 50px;
   color: #FFFFFF;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  padding: 120px 0 0 0;
 }
 
 .exp h1,
@@ -210,7 +210,7 @@ section {
   font-weight: 100;
   font-size: 50px;
   text-align: center;
-  padding: 40px;
+  padding: 50px;
 }
 
 .footer {
